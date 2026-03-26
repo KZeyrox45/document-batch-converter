@@ -189,7 +189,7 @@ pytest tests/test_converter.py -v
 ### Project Structure
 
 ```
-docbatch/
+document-batch-converter/
 ├── docbatch/
 │   ├── __init__.py
 │   ├── cli.py           # Command-line interface
