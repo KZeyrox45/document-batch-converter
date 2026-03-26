@@ -29,7 +29,7 @@ class TableData:
     slide: Optional[int] = None  # Slide number (for PPTX)
     
     def to_dict(self) -> Dict[str, Any]:
-        return asdict(self)
+        return {k: v for k, v in asdict(self).items() if v is not None or k in ['headers', 'rows', 'index']}
 
 
 @dataclass
@@ -43,7 +43,7 @@ class ImageInfo:
     slide: Optional[int] = None
     
     def to_dict(self) -> Dict[str, Any]:
-        return asdict(self)
+        return {k: v for k, v in asdict(self).items() if v is not None or k == 'index'}
 
 
 @dataclass
@@ -125,7 +125,7 @@ class ConversionWarning:
     location: Optional[str] = None  # e.g., "page 5", "slide 3"
     
     def to_dict(self) -> Dict[str, Any]:
-        return asdict(self)
+        return {k: v for k, v in asdict(self).items() if v is not None}
 
 
 @dataclass
