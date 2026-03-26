@@ -284,7 +284,8 @@ class DocumentConverter:
                 # Determine output path
                 json_path = None
                 if output_dir:
-                    json_path = output_dir / f"{filepath.stem}.json"
+                    # Include file extension to avoid collisions (e.g., "file_pdf.json")
+                    json_path = output_dir / f"{filepath.stem}_{filepath.suffix[1:]}.json"
                 
                 # Convert file
                 output = self.convert_file(filepath, json_path)
