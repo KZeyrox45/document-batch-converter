@@ -1,0 +1,109 @@
+{
+  "filename": "climate_report.docx",
+  "metadata": {
+    "file_type": "docx"
+  },
+  "conversion_time": 0.068,
+  "sections": [
+    {
+      "heading": "1. Executive Summary",
+      "content": "This report examines the current state of global climate change, presenting key findings from recent observational data and projections through 2100. Rising temperatures, shifting precipitation patterns, and increasing frequency of extreme weather events represent the most immediate challenges facing governments and industries worldwide.\nImmediate action on emissions reduction and climate adaptation strategies is essential to limit warming to 1.5°C above pre-industrial levels.",
+      "level": 1
+    },
+    {
+      "heading": "1.1 Scope and Objectives",
+      "content": "This report focuses on three primary areas:\nTemperature and sea-level rise trends\nRegional impact assessments across six continents\nPolicy recommendations for mitigation and adaptation",
+      "level": 2
+    },
+    {
+      "heading": "2. Observed Climate Trends",
+      "content": "Global mean surface temperature has increased by approximately 1.1°C since the late 19th century, with the past decade ranking as the warmest on record. Arctic regions are warming at more than twice the global average rate, accelerating ice sheet loss and permafrost thaw.\nSea levels have risen by roughly 20 cm since 1900, with the rate of rise accelerating sharply since 1990 due to thermal expansion and glacial melt.",
+      "level": 1
+    },
+    {
+      "heading": "2.1 Extreme Weather Events",
+      "content": "The frequency and intensity of extreme weather events has measurably increased over the past 50 years:\nHeat waves are occurring more frequently and lasting longer\nPrecipitation extremes have intensified in many regions\nTropical cyclone intensity has increased in the Atlantic basin\nDrought conditions have expanded across sub-tropical zones",
+      "level": 2
+    },
+    {
+      "heading": "3. Regional Impact Assessment",
+      "content": "Climate impacts vary significantly by region, with vulnerable developing nations bearing disproportionate consequences despite contributing least to historical emissions.",
+      "level": 1
+    },
+    {
+      "heading": "4. Mitigation Strategies",
+      "content": "Limiting warming to 1.5°C requires global net CO2 emissions to reach zero by approximately 2050. Key mitigation pathways include:\nRapid transition to renewable energy sources\nElectrification of transportation and heating sectors\nReduction of methane emissions from agriculture and fossil fuels\nReforestation and land use change interventions\nCarbon capture and storage deployment at scale",
+      "level": 1
+    },
+    {
+      "heading": "4.1 Adaptation Measures",
+      "content": "Even under optimistic mitigation scenarios, significant adaptation investment is required to protect communities already experiencing climate impacts. Priority adaptation measures include coastal flood defenses, drought-resilient agriculture, early warning systems for extreme events, and managed retreat from highest-risk zones.",
+      "level": 2
+    },
+    {
+      "heading": "5. Conclusion",
+      "content": "The scientific evidence for human-caused climate change is unequivocal. The window for limiting the most severe impacts is narrowing rapidly. A coordinated global response combining aggressive emissions reductions with targeted adaptation funding offers the most viable path forward.",
+      "level": 1
+    },
+    {
+      "heading": "References",
+      "content": "IPCC Sixth Assessment Report, 2021\nWorld Meteorological Organization Global Climate Report, 2023\nNASA Global Climate Change Vital Signs, 2024\nNOAA Annual Greenhouse Gas Index, 2023",
+      "level": 1
+    }
+  ],
+  "tables": [
+    {
+      "index": 0,
+      "headers": [
+        "Region",
+        "Temp. Rise (°C)",
+        "Sea Level Risk",
+        "Primary Threat"
+      ],
+      "rows": [
+        [
+          "Arctic",
+          "+3.1",
+          "High",
+          "Ice loss & permafrost"
+        ],
+        [
+          "Sub-Saharan Africa",
+          "+2.3",
+          "Medium",
+          "Drought & food security"
+        ],
+        [
+          "South & SE Asia",
+          "+1.9",
+          "Very High",
+          "Flooding & cyclones"
+        ],
+        [
+          "Mediterranean",
+          "+2.2",
+          "Low",
+          "Water scarcity"
+        ],
+        [
+          "Small Island States",
+          "+1.7",
+          "Critical",
+          "Submersion risk"
+        ],
+        [
+          "Northern Europe",
+          "+1.8",
+          "Low",
+          "Shifting ecosystems"
+        ]
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "type": "metadata_error",
+      "message": "'CoreProperties' object has no attribute 'created_date'"
+    }
+  ]
+}
